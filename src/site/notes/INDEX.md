@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/","tags":["gardenEntry"]}
+{"cssClasses":"index","dg-publish":true,"dg-home":true,"permalink":"/index/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
 ![Compendium.jpg|banner](/img/user/Assets/Images/compendium.jpg)
