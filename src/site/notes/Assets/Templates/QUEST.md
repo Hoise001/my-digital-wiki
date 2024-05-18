@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/assets/templates/quest/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/assets/templates/quest/","dgPassFrontmatter":true}
 ---
 
 <%*
