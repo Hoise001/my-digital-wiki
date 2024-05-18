@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/assets/templates/startup/"}
+{"dg-home":false,"dg-publish":true,"permalink":"/assets/templates/startup/","dgPassFrontmatter":true}
 ---
 
 <%*
