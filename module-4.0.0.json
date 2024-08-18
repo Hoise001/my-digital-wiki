@@ -1,0 +1,129 @@
+{
+  "version": "4.0.0",
+  "id": "backstory-cards",
+  "title": "Backstory Cards: Core Deck",
+  "description": "<cite>Backstory Cards</cite> blend your characters and setting concept into an intriguing set of relationships and history. It's tailor-made for games where the player-characters already know each other\u2014from fantasy adventurers to star marines, from supernatural beings who share the same city to global-hopping troubleshooters.",
+  "authors": [
+    {
+      "name": "The Immaterial Plane",
+      "url": "https://immaterialplane.com",
+      "email": "contact@immaterialplane.com"
+    }
+  ],
+  "url": "https://immaterialplane.com/products/backstory-cards-for-foundry-vtt/",
+  "manifest": "https://r2.foundryvtt.com/packages-public/backstory-cards/module.json",
+  "protected": false,
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "backstory-cards-assets-library",
+        "type": "module",
+        "compatibility": {
+          "minimum": "4"
+        },
+        "manifest": "https://immaterialplane.s3.amazonaws.com/foundryvtt/backstory-cards/backstory-cards-assets-library/module.json"
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "documents",
+      "label": "Core Deck Instructions",
+      "path": "./packs/documents",
+      "type": "JournalEntry",
+      "banner": "modules/backstory-cards-assets-library/artwork/backstory-bg.svg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cards",
+      "label": "Core Deck",
+      "path": "./packs/cards",
+      "type": "Cards",
+      "banner": "modules/backstory-cards-assets-library/artwork/backstory-bg.svg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Backstory Cards",
+      "sorting": "m",
+      "color": "#144c73",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Cards",
+          "sorting": "a",
+          "color": "#144c73",
+          "packs": [
+            "cards"
+          ]
+        },
+        {
+          "name": "Instructions",
+          "sorting": "a",
+          "color": "#144c73",
+          "packs": [
+            "documents"
+          ]
+        }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/backstory-cards/artwork/cover.webp",
+      "thumbnail": "modules/backstory-cards/artwork/cover.webp"
+    },
+    {
+      "type": "screenshot",
+      "url": "https://immaterialplane.s3.amazonaws.com/foundryvtt/backstory-cards/images/bc-card-results.png",
+      "caption": "Click on prompt callouts to randomly select setting elements or other PCs. Click on the card number to open the original Journal Entry from the Compendium or drag it to your own Journal Entries and Actors."
+    },
+    {
+      "type": "screenshot",
+      "url": "https://immaterialplane.s3.amazonaws.com/foundryvtt/backstory-cards/images/bd-pc-roll.png",
+      "caption": "Know who specifically is \"two to the left.\" Randomly rolling for PCs now displays the name of the other PC."
+    },
+    {
+      "type": "screenshot",
+      "url": "https://immaterialplane.s3.amazonaws.com/foundryvtt/backstory-cards/images/e1-mix.png",
+      "caption": "Mix decks together."
+    },
+    {
+      "type": "screenshot",
+      "url": "https://immaterialplane.s3.amazonaws.com/foundryvtt/backstory-cards/images/tags.png",
+      "caption": "Choose which tags to leave out of your draws."
+    },
+    {
+      "type": "screenshot",
+      "url": "https://immaterialplane.s3.amazonaws.com/foundryvtt/backstory-cards/images/edit-grid.png",
+      "caption": "Edit the setting grid as you generate ideas."
+    },
+    {
+      "type": "screenshot",
+      "url": "https://immaterialplane.s3.amazonaws.com/foundryvtt/backstory-cards/images/docs.png",
+      "caption": "Access instructions and reference material from the Compendium."
+    },
+    {
+      "type": "cover",
+      "url": "https://immaterialplane.s3.amazonaws.com/foundryvtt/backstory-cards/images/Backstory-Cards-Core-Foundry-itchio-cover.png",
+      "caption": "Backstory Cards: Core"
+    },
+    {
+      "type": "icon",
+      "url": "https://immaterialplane.s3.amazonaws.com/foundryvtt/backstory-cards/images/bc-icon.svg",
+      "caption": "Backstory Cards icon"
+    }
+  ]
+}
