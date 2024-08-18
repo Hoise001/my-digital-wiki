@@ -14,8 +14,8 @@
   "manifest": "https://r2.foundryvtt.com/packages-public/backstory-cards/module.json",
   "protected": false,
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "11",
+    "verified": "11"
   },
   "relationships": {
     "requires": [
